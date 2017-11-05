@@ -1,3 +1,5 @@
 Github/build/
 
 Github/*.tmp
+/RiippuvuuksienInjektointi1/.nb-gradle/
+/RiippuvuuksienInjektointi1/build/
