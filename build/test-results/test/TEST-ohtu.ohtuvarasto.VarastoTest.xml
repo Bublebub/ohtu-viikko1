@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtu.ohtuvarasto.VarastoTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2017-11-05T20:43:23" hostname="ProbookPC" time="0.006">
+  <properties/>
+  <testcase name="virheellinenAlustusLuoTyhjÃ¤nVaraston" classname="ohtu.ohtuvarasto.VarastoTest" time="0.001"/>
+  <testcase name="ottaminenPalauttaaOikeanMaaran" classname="ohtu.ohtuvarasto.VarastoTest" time="0.001"/>
+  <testcase name="liikaTavaraTÃ¤yttÃ¤Ã¤Varaston" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="lisaysLisaaPienentaaVapaataTilaa" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="lisaysLisaaSaldoa" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="varastostaEiVoiOttaaLiikaa" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="virheellinenNegatiivinenSaldonAlustusLuoTyhjÃ¤nVaraston" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="toStringToimii" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="ottaminenLisÃ¤Ã¤Tilaa" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="virheellinenTuplaAlustusLuoTyhjÃ¤nVaraston" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="negatiivinenNostoPalauttaaNollan" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="uudellaVarastollaOikeaTilavuus" classname="ohtu.ohtuvarasto.VarastoTest" time="0.001"/>
+  <testcase name="liikaSaldoTÃ¤yttÃ¤Ã¤VarastonAlustuksessa" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="konstruktoriLuoTyhjanVaraston" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <testcase name="negatiivinenLisÃ¤ysEiMuutaSaldoa" classname="ohtu.ohtuvarasto.VarastoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

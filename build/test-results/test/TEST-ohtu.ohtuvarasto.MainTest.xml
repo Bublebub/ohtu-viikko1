@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtu.ohtuvarasto.MainTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2017-11-05T20:42:21" hostname="ProbookPC" time="0.006">
+  <properties/>
+  <testcase name="tulosteOnOikein" classname="ohtu.ohtuvarasto.MainTest" time="0.006">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[Luonnin jÃƒÂ¤lkeen:&#10;Mehuvarasto: saldo = 0.0, vielÃƒÂ¤ tilaa 100.0&#10;Olutvarasto: saldo = 20.2, vielÃƒÂ¤ tilaa 79.8&#10;Olutgetterit:&#10;getSaldo()     = 20.2&#10;getTilavuus    = 100.0&#10;paljonkoMahtuu = 79.8&#10;Mehusetterit:&#10;LisÃƒÂ¤tÃƒÂ¤ÃƒÂ¤n 50.7&#10;Mehuvarasto: saldo = 50.7, vielÃƒÂ¤ tilaa 49.3&#10;Otetaan 3.14&#10;Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44&#10;Virhetilanteita:&#10;new Varasto(-100.0);&#10;saldo = 0.0, vielÃƒÂ¤ tilaa 0.0&#10;new Varasto(100.0, -50.7)&#10;saldo = 0.0, vielÃƒÂ¤ tilaa 100.0&#10;Olutvarasto: saldo = 20.2, vielÃƒÂ¤ tilaa 79.8&#10;olutta.lisaaVarastoon(1000.0)&#10;Olutvarasto: saldo = 100.0, vielÃƒÂ¤ tilaa 0.0&#10;Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44&#10;mehua.lisaaVarastoon(-666.0)&#10;Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44&#10;Olutvarasto: saldo = 100.0, vielÃƒÂ¤ tilaa 0.0&#10;olutta.otaVarastosta(1000.0)&#10;saatiin 100.0&#10;Olutvarasto: saldo = 0.0, vielÃƒÂ¤ tilaa 100.0&#10;Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44&#10;mehua.otaVarastosta(-32.9)&#10;saatiin 0.0&#10;Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Luonnin jÃƒÂ¤lkeen:
+Mehuvarasto: saldo = 0.0, vielÃƒÂ¤ tilaa 100.0
+Olutvarasto: saldo = 20.2, vielÃƒÂ¤ tilaa 79.8
+Olutgetterit:
+getSaldo()     = 20.2
+getTilavuus    = 100.0
+paljonkoMahtuu = 79.8
+Mehusetterit:
+LisÃƒÂ¤tÃƒÂ¤ÃƒÂ¤n 50.7
+Mehuvarasto: saldo = 50.7, vielÃƒÂ¤ tilaa 49.3
+Otetaan 3.14
+Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44
+Virhetilanteita:
+new Varasto(-100.0);
+saldo = 0.0, vielÃƒÂ¤ tilaa 0.0
+new Varasto(100.0, -50.7)
+saldo = 0.0, vielÃƒÂ¤ tilaa 100.0
+Olutvarasto: saldo = 20.2, vielÃƒÂ¤ tilaa 79.8
+olutta.lisaaVarastoon(1000.0)
+Olutvarasto: saldo = 100.0, vielÃƒÂ¤ tilaa 0.0
+Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44
+mehua.lisaaVarastoon(-666.0)
+Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44
+Olutvarasto: saldo = 100.0, vielÃƒÂ¤ tilaa 0.0
+olutta.otaVarastosta(1000.0)
+saatiin 100.0
+Olutvarasto: saldo = 0.0, vielÃƒÂ¤ tilaa 100.0
+Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44
+mehua.otaVarastosta(-32.9)
+saatiin 0.0
+Mehuvarasto: saldo = 47.56, vielÃƒÂ¤ tilaa 52.44]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ohtu.ohtuvarasto.MainTest.tulosteOnOikein(MainTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy3.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:147)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:129)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
