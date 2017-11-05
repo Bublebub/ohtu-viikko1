@@ -100,7 +100,7 @@ public class VarastoTest {
         varasto = new Varasto(0.0, 0);
         
         //varaston tilavuudeen tulisi olla tyhjä
-        assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
+        assertEquals(6, varasto.getTilavuus(), vertailuTarkkuus);
     }
     
     @Test
